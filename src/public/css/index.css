@@ -1,0 +1,153 @@
+.contact__form-wrapper {
+    padding: 20px 15px;
+    color: #6f5436;
+}
+
+.content__title {
+    text-align: center;
+}
+
+.content__title p {
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+}
+
+/* ここからテーブルの装飾 */
+
+.contact__form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.contact__form-table {
+    margin: 0 auto;
+
+}
+
+.form__input-required {
+    margin-left: 5px;
+    color: #e8383d;
+}
+
+.error {
+    color: #e8383d;
+}
+
+.contact__form-table th {
+    width: 30%;
+    text-align: left;
+    font-weight: 400;
+}
+
+.contact__form-table th,td{
+    padding: 10px;
+}
+
+.form__input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input-text {
+    padding: 10px 20px;
+    width: 45%;
+    border: none;
+    background-color: #f0f0ef;
+    cursor: pointer;
+}
+
+.form__input-radio:first-child {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.form__input-radio:nth-of-type(n+2) {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.form__input-emil {
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    background-color: #f0f0ef;
+    cursor: pointer;
+}
+
+.form__input-tel input {
+    padding: 10px 20px;
+    width: 27%;
+    text-align: center;
+    border: none;
+    background-color: #f0f0ef;
+    cursor: pointer;
+}
+
+.form__input-tel span {
+    padding: 10px 24px;
+}
+
+.form__input-address {
+    padding: 9px 15px;
+    width: 100%;
+    border: none;
+    background-color: #f0f0ef;
+    cursor: pointer;
+}
+
+.form__input-building {
+    padding: 10px 15px;
+    width: 100%;
+    border: none;
+    background-color: #f0f0ef;
+    cursor: pointer;
+}
+
+.form__input-category {
+    padding: 10px 15px;
+    border: none;
+    background-color: #f0f0ef;
+    cursor: pointer;
+}
+
+.form__input-category option {
+    background-color: #f0f0ef;
+}
+
+.form__textarea {
+    padding: 10px 15px;
+    width: 100%;
+    border: none;
+    background-color: #f0f0ef;
+    resize: none;
+    cursor: pointer;
+}
+
+.confirm__button {
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.confirm__button-submit {
+    padding: 3px 25px;
+    border: none;
+    border-radius: 1px;
+    background-color: #8f8079;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.create-button button {
+    padding: 3px 25px;
+    border: none;
+    border-radius: 1px;
+    background-color: #8f8079;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+

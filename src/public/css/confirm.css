@@ -1,0 +1,76 @@
+.confirm__content {
+    padding: 20px 15px;
+    color: #6f5436;
+}
+
+.confirm__heading {
+    text-align: center;
+}
+
+.confirm__heading p {
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+}
+
+.form {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.confirm-table {
+
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table th,td {
+    padding: 10px 20px;
+
+}
+
+.confirm-table th {
+    border-bottom: 1px solid #fff;
+    background-color: #b39c8f;
+    color: #fff;
+}
+
+.confirm-table th:first-child {
+    border-top: 1px solid #ab9d8d;
+}
+
+.confirm-table th:last-child {
+    border:none;
+}
+
+.confirm-table td {
+    border: 1px solid #ab9d8d;
+}
+
+.form-button__box {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 15px;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.create-button button {
+    padding: 3px 25px;
+    border: none;
+    border-radius: 1px;
+    background-color: #8f8079;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.correct__form button {
+    padding: 3px 25px;
+    border: none;
+    border-radius: 1px;
+    color: #8f8079;
+    font-size: 18px;
+    cursor: pointer;
+}

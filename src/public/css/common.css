@@ -1,0 +1,27 @@
+
+.header {
+    max-width: 100%;
+    border-bottom: 1px solid #eee9e6;
+}
+
+.header__inner {
+    position: relative;
+    align-items: center;
+    width: 100%;
+    padding: 20px 15px;
+}
+
+.header__logo {
+    text-align: center;
+    color: #7a6356;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+
+.header__button {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+

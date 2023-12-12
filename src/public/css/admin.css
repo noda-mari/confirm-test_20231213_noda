@@ -1,0 +1,238 @@
+
+
+.contact__wrapper {
+    margin: 0 auto;
+    width: 70%;
+    color: #7a6356;
+}
+
+.content__title  {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.content__title p {
+    font-size: 24px;
+}
+
+
+.search__form {
+    margin-bottom: 50px;
+}
+
+.search__form form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input-text {
+    position: relative;
+}
+
+.form__input-text input {
+    width: 310px;
+    padding: 13px 10px;
+    border: 1px solid #ab9d8d;
+}
+
+/* inputタグの中に虫眼鏡マークを入れたい */
+.form__input-text button {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    border: none;
+    background-color: #fff;
+}
+
+.form__select-gender {
+
+}
+
+.form__select-gender select {
+    padding: 10px;
+    background-color: #f7f6f5;
+    border: 1px solid #ab9d8d;
+    color: #7a6356;
+    font-size: 18px;
+}
+
+.form__select-category {
+
+}
+
+.form__select-category select {
+    padding: 10px;
+    background-color: #f7f6f5;
+    border: 1px solid #ab9d8d;
+    color: #7a6356;
+    font-size: 18px;
+}
+
+.form__input-date {
+
+}
+
+.form__input-date input {
+    padding: 10px;
+    background-color: #f7f6f5;
+    border: 1px solid #ab9d8d;
+    color: #7a6356;
+    font-size: 18px;
+}
+
+.export__form {
+
+}
+
+.export__form button {
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #f7f6f5;
+    border: 1px solid #ab9d8d;
+    color: #7a6356;
+    font-size: 18px;
+}
+
+.content__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ページネーションについての装飾 */
+
+.pagination {
+
+}
+
+.pagination li {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ab9d8d;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #7a6356;
+}
+
+/* テーブルについての装飾 */
+
+.contact__table table {
+    width: 100%;
+}
+
+.contact__table-row {
+    border-bottom: 1px solid #ab9d8d;
+}
+
+.contact__table-row :first-child {
+    border-left: 1px solid #ab9d8d;
+}
+
+.contact__table-row :last-child {
+    border-right: 1px solid #ab9d8d;
+}
+
+.contact__table th {
+    padding: 15px 15px;
+    background-color: #7a6356;
+    color: #fff;
+}
+
+.contact__table td {
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.search__reset {
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.search__reset-button {
+    padding: 3px 25px;
+    border: none;
+    border-radius: 1px;
+    background-color: #8f8079;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* モーダルについての装飾 */
+
+.modal__open-button {
+    padding: 5px 10px;
+    background-color: #fff9f5;
+    border: 1px solid #ab9d8d;
+    color: #ab9d8d;
+}
+
+/* モーダルと背景の指定 */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 50%);
+    padding: 40px 20px;
+    overflow: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    box-sizing: border-box;
+}
+
+/* モーダルの擬似要素の指定 */
+.modal:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    margin-left: -0.2em;
+}
+
+/* クラスが追加された時の指定 */
+.modal.is-active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* モーダル内側の指定 */
+.modal__container {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 600px;
+    width: 90%;
+}
+
+/* モーダルを閉じるボタンの指定 */
+.modal__close-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -20px;
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* モーダルのコンテンツ部分の指定 */
+.modal__content {
+    background: #fff;
+    text-align: left;
+    line-height: 1.8;
+    padding: 20px;
+}
+
+.detail__table {
+
+}
+
