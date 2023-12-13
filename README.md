@@ -32,7 +32,7 @@ PHP:7.4.9-fpm
 
 ## ER図
 
-!(test.drawio.png)
+![ER図](./test.drawio.png)
 
 ## URL 
 
